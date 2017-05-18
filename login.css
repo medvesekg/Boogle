@@ -1,0 +1,98 @@
+html {
+    background: url("http://i.imgur.com/4COsHXh.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main {
+    width: 350px;
+    height: 400px;
+    margin: 100px auto 20px auto;
+    background: white;
+    padding: 40px 25px;
+    box-shadow: 
+        0 2px 2px 0 rgba(0,0,0,0.14), 
+        0 3px 1px -2px rgba(0,0,0,0.12), 
+        0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.logo {
+    width: 70px;
+}
+
+#email-input {
+    display: block;
+    width: 100%;
+    height: 25px;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+}
+
+#email-input:focus {
+    outline: none;
+    border-bottom: 2px solid #4285f4;
+}
+
+#vec-moznosti {
+    color: #4285f4;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.blue-button {
+    background: #4285f4;
+    border: none;
+    width: 85px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+}
+
+.footer {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.left-footer {
+    display: inline;
+}
+
+.right-footer {
+    float: right;
+    display: inline;
+}
+
+.menu-item {
+    margin: 0 5px;
+    color: #757575;
+}
+
+.fa-caret-down {
+    margin-left: 5px;
+}
